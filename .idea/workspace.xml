@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e45780-4f7b-44c6-9ac7-d17fefba9ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/conf.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/handle.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/pkg.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/router.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
+    <list default="true" id="e1e45780-4f7b-44c6-9ac7-d17fefba9ef5" name="Default Changelist" comment="项目结构调整">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +34,14 @@
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ask.go.tool.to.install.GoGolangCILintTaskConsumer" value="true" />
+    <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -111,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gin 接收参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="gin 接收参数" />
+    <MESSAGE value="项目结构调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目结构调整" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
