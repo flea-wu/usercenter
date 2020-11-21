@@ -9,6 +9,9 @@ import (
 	"net/http"
 )
 
+/*
+Go程序唯一入口
+*/
 func main() {
 
 	// 1. 安装  gin : go get -u github.com/gin-gonic/gin
