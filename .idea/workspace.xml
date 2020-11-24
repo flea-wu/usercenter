@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e45780-4f7b-44c6-9ac7-d17fefba9ef5" name="Default Changelist" comment="项目结构调整">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/server.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/server.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/doc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/swagger/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/swagger/swagger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/sd/check.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/user/create.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/user/delete.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/user/get.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/user/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/user/login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/user/update.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/user/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/auth/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/constvar/constvar.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/error/code.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/error/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/token/token.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/version/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/version/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/version/version.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/middleware/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/middleware/header.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/middleware/logging.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/middleware/middleware.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/middleware/requestid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/util.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/util_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/conf.md" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/handle.md" beforeDir="false" afterPath="$PROJECT_DIR$/handler/handle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.md" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/pkg.md" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/pkg.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router.md" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service.md" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.md" afterDir="false" />
-    </list>
+    <list default="true" id="e1e45780-4f7b-44c6-9ac7-d17fefba9ef5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +32,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -149,7 +96,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gin 接收参数" />
     <MESSAGE value="项目结构调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目结构调整" />
+    <MESSAGE value="gin 项目结构调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="gin 项目结构调整" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -165,6 +113,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="447" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1605957397295" />
+    <state x="307" y="24" key="CommitChangelistDialog2" timestamp="1605971187865">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="307" y="24" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605971187865" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605971284191">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605971284191" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
