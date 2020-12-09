@@ -97,7 +97,8 @@
     <MESSAGE value="gin 接收参数" />
     <MESSAGE value="项目结构调整" />
     <MESSAGE value="gin 项目结构调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="gin 项目结构调整" />
+    <MESSAGE value="修改 readme 文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 readme 文件" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -113,14 +114,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="447" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1605957397295" />
-    <state x="307" y="24" key="CommitChangelistDialog2" timestamp="1605971187865">
+    <state x="307" y="24" key="CommitChangelistDialog2" timestamp="1607527758921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="307" y="24" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605971187865" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605971284191">
+    <state x="307" y="24" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1607527758921" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607527844035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605971284191" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607527844035" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
