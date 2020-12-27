@@ -17,12 +17,12 @@ func main() {
 	// 1. 安装  gin : go get -u github.com/gin-gonic/gin
 	// 2. go.mod 中有对应的依赖信息
 
-	// 获取一个路由
+	// 获取一个路由, 使用默认中间件（logger和recovery）
 	r := gin.Default()
 
 	// get 方法 和 处理get 方法的逻辑
 	r.GET("/hello", func(context *gin.Context) {
-		context.JSON(200, gin.H{
+		context.JSON(200, gin.H{ //返回一个JSON，状态码是200，gin.H是map[string]interface{}的简写
 			"name": "tiaozao",
 		})
 	})
@@ -98,8 +98,8 @@ func main() {
 		}
 	})
 
-	// 启动
-	_ = r.Run()
+	// 启动，并设置端口
+	_ = r.Run(":9001")
 
 	// 操作数据库
 	//GetDB()
